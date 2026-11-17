@@ -1,0 +1,12 @@
+plugins { id 'com.android.application' }
+android {
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.benjamin.worldshield.cyber"
+        minSdk 21
+        targetSdk 34
+        versionCode 3
+        versionName "3.0-ultimate"
+    }
+    buildTypes { release { minifyEnabled false } }
+}
